@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+   
+    background-image: url("simplebg.avif");
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(254, 130, 209); */
+
+}
+/* .container{
+    height: 60px;
+    width: 100%;
+    background-color:rgba(254, 254, 255, 0.884);
+    opacity: 0.9;
+    position:fixed;
+    top:0px;
+    display: flex;;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 5;
+} */
+.container{
+    height: 60px;
+    width: 100%;
+    background-color:rgba(23, 22, 26, 0.782);
+    opacity: 0.9;
+    position:fixed;
+    top:0px;
+    display: flex;;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 5;
+}
+
+a {
+text-decoration:none;
+
+}
+
+
+/* .navitems{
+    color: rgb(23, 23, 23);
+    font-size: large;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    bottom: 9px;
+    border-bottom: 3px solid rgba(24, 23, 23, 0.525); 
+    border-left: 3px solid rgba(16, 15, 15, 0.666);
+    border-radius: 20px;
+    padding: 8px;
+    
+} */
+.navitems{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    bottom: 9px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.525); 
+    border-left: 3px solid rgba(255, 255, 255, 0.666);
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+
+
+
+#navitemdiv:hover {
+   
+    position: relative;
+    bottom: 7px;
+    
+
+}
+
+
+#logo{
+
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     position: fixed;
+    left: 5px;
+    bottom: 41rem;
+    align-items: center;
+    color: rgb(234, 171, 25);
+    font-style: italic;
+    z-index: 6;
+}
+
+.amazonbox{
+    height: 30rem;
+    width: 60rem;
+    background-color: black;
+    padding: 40px;
+    top:10rem;
+    position: absolute;
+    left: 20rem;
+    background-image: url("amazonpic.png");
+    background-size: cover;
+    border: 7px solid rgb(246, 241, 241);
+    margin-bottom: 30%;
+    
+    
+}
+
+.webbox{
+    height: 30rem;
+    width: 60rem;
+    background-color: rgb(163, 26, 26);
+    padding: 40px;
+    top:50rem;
+    position: absolute;
+    left: 20rem;
+    background-image: url("webpic.png");
+    background-size: cover;
+    border: 7px solid rgb(239, 233, 233);
+    
+}
+    
+
+
+.imgcontainer{
+    margin-top: 121px;
+    margin-left: 164px;
+    height: 120rem;
+    width: 76rem;
+     display: flex; 
+    /* justify-content: space-between; */
+    align-items: center;
+     padding: 20px;
+     background-color: rgba(55, 91, 141, 0.353); 
+     /* background-image: url("bgframe2.jpg");  */
+    
+     background-size: cover;
+    
+}
+button{
+    height: 60px;
+    width: 150px;
+    background-color: red;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 18px;
+    
+}
+
+.amazonbutton{
+    position: absolute;
+    top: 81rem;
+    left: 46rem;
+    border-radius: 20px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid black;
+   
+}
+.webbutton{
+
+    position: absolute;
+    top: 41rem;
+    left: 46rem;
+    border-radius: 20px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+
+}
+
+button:hover{
+    border:none;
+}
+.netflixbox{
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    top: 90rem;
+
+   
+
+}
+.netflixvidbox{
+    position: absolute;
+    left: 9rem;
+    border: 7px solid rgb(249, 242, 242);
+
+}
+.netflixbutton{
+    position: absolute;
+    top: 29rem;
+    left: 34rem;
+    border-radius: 20px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+
+}
+/* button .a{
+    font-size: 16px;
+} */
+hr{
+    color: black;
+    
+}
+
+h3{
+    position: relative;
+    left: 200px;
+}

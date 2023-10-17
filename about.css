@@ -1,0 +1,101 @@
+  *{
+        margin: 0;
+        padding: 0;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+    }
+
+body{
+    background-image: url("newaboutpic.avif");
+    background-size: cover;
+    height: 60rem;
+}
+.container{
+    height: 60px;
+    width: 100%;
+    background-color:rgba(22, 22, 23, 0.667);
+    opacity: 0.9;
+    position:fixed;
+    top:0px;
+    display: flex;;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+a{
+    text-decoration:none;}
+
+    .navitems{
+        color: rgb(250, 247, 247);
+        font-size: large;
+        font-weight: 600;
+        font-size: 20px;
+        position: relative;
+        bottom: 9px;
+        border-bottom: 3px solid rgba(232, 224, 224, 0.525); 
+        border-left: 3px solid rgba(244, 232, 232, 0.666);
+        border-radius: 20px;
+        padding: 8px;
+        
+    }
+    
+.icons{
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+
+    
+#navitemdiv:hover {
+   
+    position: relative;
+    bottom: 7px;
+
+}
+
+
+#logo{
+   
+        font-family: Arial, Helvetica, sans-serif;
+         font-size: 18px;
+         position: fixed;
+        left: 5px;
+        bottom: 42rem;
+        align-items: center;
+        color: rgb(234, 171, 25);
+        z-index: 5;
+        font-style: italic;
+}
+
+.aboutpic{
+    height: 35rem;
+    width: 25rem;
+    background-color: black;
+    position: absolute;
+    left: 35rem;
+    top: 8rem;
+    background-image: url("p12bg.jpeg");
+    background-size: cover;
+    border: 3px solid aqua;
+}
+.aboutcontent{
+    height: 40;
+    width:27rem ;
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    color: rgb(19, 19, 20);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.common{
+    height: 50rem;
+    width: 70rem;
+    position: absolute;
+    top: 16%;
+    left: 18%;
+    background-color: rgba(175, 212, 232, 0.736);
+    padding: 20px;
+}
